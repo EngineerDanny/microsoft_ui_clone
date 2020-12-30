@@ -61,10 +61,11 @@ ul {
 .btn {
   color: white;
   background-color: #262626;
-  padding: 9px 15px;
+  padding: 9px 20px;
   cursor: pointer;
   border: 0;
   font-weight: bold;
+  margin: 10px 0;
   font-size: 15px;
 }
 
@@ -73,7 +74,16 @@ ul {
 }
 
 .showcase {
-  height: 0.5px;
+  height: 400px;
   width: 100%;
   margin-right: 5px;
+  background: url("./img/backgroundnew.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  object-fit: fill;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 25px;
 }
